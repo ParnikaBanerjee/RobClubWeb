@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color:whitesmoke;
+    margin:0px;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+header a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.navbar a{
+    margin: 30px;
+    color:whitesmoke;
+    text-decoration: none;
+}
+.landing{
+    padding: 150px;
+    background: url(https://img.freepik.com/free-vector/red-chriatmas-banner-with-baubles-snowflake-decoration_1017-28677.jpg);
+    background-size: cover;
+}
+.events{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.eventsheading{
+    font-size:  30px;
+}
+.cards{
+    display:flex;
+    
+    
+}
+
+.card img{
+    width:150px;
+}
+.contactdetails{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.contactdetails input{
+    margin:10px;
+    width:300px;
+    height:50px;
+    border-radius: 40px;
+    border:none;
+}
+.contactdetails button{
+    width:80px;
+    height:50px;
+    border-radius:40px;
+    background-color: green;
+    color:whitesmoke;
+    border:none;
+}
