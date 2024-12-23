@@ -2,11 +2,26 @@ body{
     background-color: black;
     color:whitesmoke;
     margin:0px;
+    font-family: "Playfair Display", serif;
 }
+.luxurious-script-regular {
+    font-family: "Luxurious Script", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  .playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
 header{
     display:flex;
     justify-content:space-between;
     align-items: center;
+    height:100px;
 }
 header a{
     color:whitesmoke;
@@ -22,6 +37,8 @@ header a{
     padding: 150px;
     background: url(https://img.freepik.com/free-vector/red-chriatmas-banner-with-baubles-snowflake-decoration_1017-28677.jpg);
     background-size: cover;
+    font-family: "Luxurious Script", serif;
+    font-size: 40px;
 }
 .events{
     display:flex;
